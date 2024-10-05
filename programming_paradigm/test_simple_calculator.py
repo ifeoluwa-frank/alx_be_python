@@ -12,7 +12,7 @@ class TestSimpleCalculator(unittest.TestCase):
     def test_add_negative(self):
         self.assertEqual(self.calc.add(-10, 5), -5)
 
-    def test_sub_positive(self):
+    def test_subtraction(self):
         self.assertEqual(self.calc.subtract(10, 5), 5)
 
     def test_sub_negative(self):
